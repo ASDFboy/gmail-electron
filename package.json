@@ -1,0 +1,23 @@
+{
+  "name": "gmail-electron",
+  "version": "1.0.0",
+  "description": "A lightweight desktop app that runs Gmail in its own window, built with Electron.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package:win": "electron-packager . \"Gmail Desktop\" --platform=win32 --arch=x64 --out=dist --overwrite --asar --icon=icon.ico --win32metadata.CompanyName=\"Gmail Electron\" --win32metadata.ProductName=\"Gmail Desktop\" --win32metadata.FileDescription=\"Gmail Desktop\"",
+    "package:mac": "electron-packager . \"Gmail Desktop\" --platform=darwin --arch=universal --out=dist --overwrite --asar --icon=icon.icns",
+    "package:linux": "electron-packager . \"Gmail Desktop\" --platform=linux --arch=x64 --out=dist --overwrite --asar --icon=icon.png"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ASDFboy/gmail-electron.git"
+  },
+  "keywords": ["electron", "gmail", "desktop-app"],
+  "author": "ASDFboy",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^33.2.1",
+    "electron-packager": "^17.1.2"
+  }
+}
