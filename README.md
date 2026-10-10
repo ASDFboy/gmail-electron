@@ -45,4 +45,4 @@ MIT — see [LICENSE](LICENSE). Use it, fork it, package it, ship it.
 
 ## Credits
 
-Built with [Claude](https://claude.com) (Anthropic).
+Created by **ASDFboy** ([@ASDFboy](https://github.com/ASDFboy)) and **Claude** (Anthropic).
